@@ -53,10 +53,10 @@ namespace BasicCalculator
             {
                 MessageBox.Show("Please enter valid numbers.");
             }
-            catch (DivideByZeroException ex) 
+            catch (DivideByZeroException ex)
             {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK,MessageBoxIcon.Error);
-                
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
 
 

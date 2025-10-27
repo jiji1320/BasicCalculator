@@ -13,7 +13,7 @@ namespace CalculatorPrivateAssembly
         public static float Subtract(float a, float b) => a - b;
         public static float Multiply(float a, float b) => a * b;
         public static float Divide(float a, float b) => b != 0 ? a / b : 0;
-        
+
 
     }
 }
